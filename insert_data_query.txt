@@ -1,0 +1,22 @@
+Insert data into tables 
+ queries
+INSERT INTO movie (mov_id, mov_title, mov_year, mov_time, mov_lang, mov_dt_rel, mov_rel_country)
+    -> VALUES
+    -> (1, 'Dangal', 2016, 161, 'Hindi', '2016-12-23', 'IND'),
+    -> (2, 'Baahubali: The Beginning', 2015, 159, 'Telugu', '2015-07-10', 'IND'),
+    -> (3, '3 Idiots', 2009, 170, 'Hindi', '2009-12-25', 'IND'),
+    -> (4, 'Kabhi Khushi Kabhie Gham', 2001, 210, 'Hindi', '2001-12-14', 'IND'),
+    -> (5, 'Super Deluxe', 2019, 176, 'Tamil', '2019-03-29', 'IND');
+
+------------------------------------------------------------------------
+insert into actor (act_id,act_fname,act_lname,act_gender) values(4, 'Aamir',' Khan', 'M'),
+    -> (5, 'Sakshi',' Tanwar', 'F'),
+    -> (6, 'Prabhas', 'M'),
+    -> (7, 'Anushka',' Shetty', 'F'),
+    -> (8, 'Aamir ','Khan', 'M'),
+    -> (9, 'Kareena',' Kapoor', 'F'),
+    -> (10, 'Shah Rukh',' Khan', 'M'),
+    -> (11, 'Vijay',' Sethupathi', 'M'),
+    -> (12, 'Samantha',' Ruthprabhu', 'F');
+
+--------------------------------------------------------------------------------------------
